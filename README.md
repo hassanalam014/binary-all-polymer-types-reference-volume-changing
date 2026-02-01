@@ -45,7 +45,7 @@ The code supports multiple polymer types and includes utilities for fitting theo
 ## Installation
 
 ### Prerequisites
-- Python 2.7 (legacy code base)
+- Python 2.7 (legacy code base - **Note**: Python 2.7 reached end-of-life in 2020. Migration to Python 3.x is recommended for security and compatibility)
 - NumPy
 - SciPy
 - Matplotlib
