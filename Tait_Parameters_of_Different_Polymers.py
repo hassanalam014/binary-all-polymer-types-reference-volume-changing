@@ -25,7 +25,6 @@ def Tait_Parameters_of_Different_Polymers(**kwargs):
 
   if Polymer_Type=='PLA' and Parameters_Paper=='Self_Park':
     # Data Paper: Determination of carbon dioxide solubility in polylactide acid with accurate PVT properties
-    # Author: Park et al. (2014)
     v_0 =    0.61401476 #+/- 0.00666235 (1.09%) (init = 0.6)   
     alpha =  8.4676e-04 #+/- 2.7302e-05 (3.22%) (init = 0.0003)
     B0 =     321.437165 #+/- 120.421606 (37.46%) (init = 16000)

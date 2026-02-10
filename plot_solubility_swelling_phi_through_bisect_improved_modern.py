@@ -1,4 +1,3 @@
-# Author: Kier von Konigslow
 # Date: November 2017
 #
 import os,sys,math,csv,matplotlib.pyplot as plt,numpy as npy

@@ -28,7 +28,6 @@ def Parameters_of_Different_Polymers(**kwargs):
 
     if Polymer_Type=='PLA' and Parameters_Paper=='Self_Park':
         # Paper: Determination of carbon dioxide solubility in polylactide acid with accurate PVT properties
-        # Author: Park et al. (2014)
         Ppstar =  464.127112 #+/- 13.7891457 (2.97%) (init = 572.96)
         Tpstar =  566.767133 #+/- 2.72170304 (0.48%) (init = 591.56)
         Rpstar =  1.37495743 #+/- 0.00161557 (0.12%) (init = 1.364)
@@ -47,7 +46,6 @@ def Parameters_of_Different_Polymers(**kwargs):
     if Polymer_Type=='PMMA' and Parameters_Paper=='Self_Schmidt':
         # Data 1 Very Good Matching 1
         # Paper: Good 2000 PVT of PMMA Schmidt ma991722h
-        # Author: Schmidt et al. (2000)
         Ppstar=577.933210    #+/- 22.7932121 (3.94%)
         Tpstar=677.583131    #+/- 7.01760682 (1.04%)
         Rpstar=1.27392163    #+/- 0.00421348 (0.33%)
@@ -56,7 +54,6 @@ def Parameters_of_Different_Polymers(**kwargs):
     if Polymer_Type=='PMMA' and Parameters_Paper=='Self_Grassia':
         # Data 2 Very Good Matching 2
         # Paper: Best 2011 PVT and Tg of PMMA Grassia 1-s2.0-S0022309310005338-main
-        # Author: Grassia et al. (2011)
         Ppstar=562.397384    #+/- 7.52128331 (1.34%)
         Tpstar=654.343418    #+/- 2.72548523 (0.42%)
         Rpstar=1.28146781    #+/- 0.00153252 (0.12%)
@@ -65,7 +62,6 @@ def Parameters_of_Different_Polymers(**kwargs):
     if Polymer_Type=='PMMA' and Parameters_Paper=='Self_Walsh':
         # Data 3 Overlap and Significant Matching but Not Complete Matching
         # Paper: Old 1992 PVT of PMMA PII_ 0032-3861(92)90694-R
-        # Author: Walsh et al. (1992)
         Ppstar=564.823646    #+/- 17.9901923 (3.19%)
         Tpstar=667.892308    #+/- 5.07983058 (0.76%)
         Rpstar=1.28420005    #+/- 0.00323659 (0.25%)
@@ -74,7 +70,6 @@ def Parameters_of_Different_Polymers(**kwargs):
     if Polymer_Type=='PMMA' and Parameters_Paper=='Self_Wen':
         # Data 4 Neither Matching Nor Overlap
         # Paper: Good 2001 PVT and Tg of PMMA Wen ma010023d
-        # Author: Wen (2001)
         Ppstar=479.377365    #+/- 31.3221097 (6.53%)
         Tpstar=709.595728    #+/- 7.99245188 (1.13%)
         Rpstar=1.28295203    #+/- 0.00451412 (0.35%)
@@ -87,7 +82,6 @@ def Parameters_of_Different_Polymers(**kwargs):
     if Polymer_Type=='PC' and Parameters_Paper=='Self_Aravind':
         # Data 1 Matching 1
         # Paper: Best 2012 PVT and Tg of PC Aravind 1-s2.0-S014294181100153X-main
-        # Author: Aravind et al. (2012)
         Ppstar=477.201600      #+/- 6.50120144 (1.36%) (init = 60)
         Tpstar=745.977589      #+/- 2.32835065 (0.31%) (init = 50)
         Rpstar=1.28039144      #+/- 0.00124800 (0.10%) (init = 2)
@@ -96,7 +90,6 @@ def Parameters_of_Different_Polymers(**kwargs):
     if Polymer_Type=='PC' and Parameters_Paper=='Self_Sato':
         # Data 2 Matching 2
         # Paper: Good 1997 PVT of PC (SICI)1097-4628(19971003)66_1_141__AID-APP17_3.0.CO;2-4
-        # Author: Sato et al. (1997)
         Ppstar=500.834279      #+/- 11.7676771 (2.35%) (init = 60)
         Tpstar=751.670242      #+/- 4.73421735 (0.63%) (init = 50)
         Rpstar=1.28175322      #+/- 0.00261206 (0.20%) (init = 2)
@@ -105,7 +98,6 @@ def Parameters_of_Different_Polymers(**kwargs):
     if Polymer_Type=='PC' and Parameters_Paper=='Self_Rudolph':
         # Data 3 Overlap But Not Matching
         # Paper: Best 2016 PVT and Tg of PC Rudolph Rudolph2016_Article_WLFModelForThePressureDependen
-        # Author: Rudolph et al. (2016)
         Ppstar=378.30332       #+/- 11.5504425 (3.05%) (init = 60)
         Tpstar=625.52729       #+/- 3.99028295 (0.64%) (init = 50)
         Rpstar=1.33244470      #+/- 0.00373602 (0.28%) (init = 2)
@@ -114,7 +106,6 @@ def Parameters_of_Different_Polymers(**kwargs):
     if Polymer_Type=='PC' and Parameters_Paper=='Self_Kikuchi':
         # Data 4 Neither Matching Nor Overlap
         # Paper: Good 2003 PVT and Tg of PS and PC Kikuchi Thermal Conductivity
-        # Author: Kikuchi et al. (2003)
         Ppstar=899.363789      #+/- 14.6137301 (1.62%) (init = 60)
         Tpstar=659.224862      #+/- 2.94947589 (0.45%) (init = 50)
         Rpstar=1.22050074      #+/- 0.00213321 (0.17%) (init = 2)
@@ -126,8 +117,6 @@ def Parameters_of_Different_Polymers(**kwargs):
 
     if Polymer_Type=='PS' and Parameters_Paper=='Self_Kier':
         # Data # 1: Matching But Not Exactly Kier Zoller Wash Data
-        # Paper: NONE (Kier Original PVT Data)
-        # Author: Zoller et al.    
         Ppstar=  430.896437      #+/- 9.16502716 (2.13%) (init = 60)
         Tpstar=  690.581024      #+/- 2.83119250 (0.41%) (init = 50)
         Rpstar=  1.11801998      #+/- 0.00128308 (0.11%) (init = 2)
@@ -136,7 +125,6 @@ def Parameters_of_Different_Polymers(**kwargs):
     if Polymer_Type=='PS' and Parameters_Paper=='Self_Kikuchi':
         # Data#2: Overlap But Not Matching
         # Paper: Good 2003 PVT and Tg of PS and PC Kikuchi Thermal Conductivity
-        # Author: Kikuchi (2003)
         Ppstar=  624.048947      #+/- 16.3388656 (2.62%) (init = 60)
         Tpstar=  623.692994      #+/- 4.00763066 (0.64%) (init = 50)
         Rpstar=  1.13205301      #+/- 0.00257298 (0.23%) (init = 2)
@@ -145,7 +133,6 @@ def Parameters_of_Different_Polymers(**kwargs):
     if Polymer_Type=='PS' and Parameters_Paper=='Self_Park':
         # Data#3: Matching But Not Exactly 2004 Very few points
         # Paper: Good 2004 PVT of PS and PP adv.20020
-        # Author: Park (2004)
         Ppstar=  265.473727      #+/- 24.9282071 (9.39%) (init = 275.8)
         Tpstar=  798.859724      #+/- 14.5314703 (1.82%) (init = 803.1)
         Rpstar=  1.07238654      #+/- 0.00508400 (0.47%) (init = 1.072)
@@ -154,7 +141,6 @@ def Parameters_of_Different_Polymers(**kwargs):
     if Polymer_Type=='PS' and Parameters_Paper=='Self_Grassia':
         # Data#4: Matching But Not Exactly 2011 Best
         # Paper: Best 2011 PVT Tg of PS app.34789
-        # Author: Grassia (2011)
         Ppstar=  462.343780      #+/- 6.99594722 (1.51%) (init = 60)
         Tpstar=  647.334764      #+/- 2.98020363 (0.46%) (init = 50)
         Rpstar=  1.14149853      #+/- 0.00157953 (0.14%) (init = 2)

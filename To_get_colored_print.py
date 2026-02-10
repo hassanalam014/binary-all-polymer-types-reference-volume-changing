@@ -1,4 +1,3 @@
-# Author: Kier von Konigslow
 # Date: November 2017
 #
 

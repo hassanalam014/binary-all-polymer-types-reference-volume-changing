@@ -1,4 +1,3 @@
-# Author: Kier von Konigslow
 # Date: May 2017
 #
 # Description	: The purpose of this file is to estimate the multicomponent fluid parameters
